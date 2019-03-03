@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    font-family: Laila, sans-serif;
+    background-color: #1B2631;
+    background: radial-gradient(circle, #34495E, #85929E);
+    color: #DAF7A6;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+div .grid {
+    height: 450px;
+    width: 450px;
+    background-color: white;
+}
+
+div .grid > div {
+    background-color: white;
+    border: 1px solid #eee;
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+button {
+    border: 1px solid black;
+    display: inline-block;
+    font-family: Laila, sans-serif;
+    margin-top: 35px;
+    margin-right: 10px;
+    background-color: #DAF7A6;
+    opacity: 0.7;
+}
+
+button:hover {
+    background-color: #DAF7A6;
+    opacity: 1;
+}
+
+div .cell {
+    background-color: white;
+}
